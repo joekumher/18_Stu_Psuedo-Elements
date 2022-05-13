@@ -71,9 +71,14 @@ span[data-descr] {
   content: attr(data-descr);
   position: absolute;
   left: 0%;
-  bottom: 24%;
+  bottom: 24px;
   min-width: 200px;
+  border: 1px #aaaaaa solid;
   background-color: #13293d;
+  padding: 12px;
+  color: white;
+  font-size: 80%;
+  z-index: 1;
  }
 
 aside {
